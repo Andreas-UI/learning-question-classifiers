@@ -1,0 +1,46 @@
+# Byte-compiled / optimized / DLL files
+**/__pycache__/
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Jupyter Notebook metadata cache
+.ipynb_metadata/
+
+# Virtual environments
+.env/
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter runtime files
+~/.ipython/
+~/.jupyter/
+~/.local/share/jupyter/
+
+# Log files
+*.log
+
+# Hidden system files
+.DS_Store
+Thumbs.db
+
+# VSCode and other editor settings
+.vscode/
+.idea/
+
+# Python environment files
+*.egg
+*.egg-info/
+dist/
+build/
+
+# MLflow, Optuna, experiment tracking logs (optional)
+mlruns/
+optuna_study/
