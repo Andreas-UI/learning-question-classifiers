@@ -80,7 +80,7 @@ TextCNN(
 | macro avg | 0.97    | 0.97   | 0.97     | 500     |
 | weighted avg | 0.97 | 0.97   | 0.97     | 500     |
 
-![TextCNN Confusion Matrix](images\textcnn-cm.png)
+![TextCNN Confusion Matrix](images/textcnn-cm.png)
 
 ### 3.4 Insights from Hyperparameter Tuning
 
@@ -89,21 +89,21 @@ TextCNN(
 * Kernels `[1, 3, 5]` outperform `[3, 5, 7]`
 * The 1-gram kernel captures strong lexical cues (e.g. "who" -> HUM, "where" -> LOC)
 
-![TextCNN Kernels Comparison](images\textcnn-kernels.png)
+![TextCNN Kernels Comparison](images/textcnn-kernels.png)
 
 #### Embedding Dimensions
 
 * Higher dimensions (up to 512) lead to better performance
 * Suggests richer semantic representation helps in capturing question intent
 
-![TextCNN Embedding Dimension](images\textcnn-embeddings.png)
+![TextCNN Embedding Dimension](images/textcnn-embeddings.png)
 
 #### Filter Counts
 
 * 64 vs 128 filters perform similarly
 * Adding more filters beyond 128 may yield diminishing returns
 
-![TextCNN Filters](images\textcnn-filters.png)
+![TextCNN Filters](images/textcnn-filters.png)
 
 ### 3.5 Semantic Error Analysis
 
